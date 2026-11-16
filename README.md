@@ -104,3 +104,9 @@ kubectl -n container-deployment rollout history deployment/cloudnotes
 
 To test rollback, create a controlled disposable revision and use rollout undo, then verify.
 Do not expect an old revision to exist on a fresh deployment. No hosted CI is required.
+
+
+
+solution for error:2026-11-16 10:45:39.986 [info] Error: Error response from daemon: failed to create task for container: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: error during container init: exec: ".": executable file not found in $PATH
+failed to start containers: 7d110bdc9a6577f529da4cb4fbed3a349e3a707cfb316737a7fa1a1c847bfbef
+
